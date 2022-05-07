@@ -53,8 +53,16 @@ button {
   box-shadow: 4px 4px 8px #cbcbcb, 4px -4px 8px #ffffff;
 }
 .btn_shadow:hover {
-  background-color: #ff014f;
+  background: #ff014f;
   color: white;
   transform: translateY();
 }
-
+.row, .left, .right {
+  width: 50%;
+}
+.top {
+  margin-top: 80px;
+}
+.mtop {
+  margin-top: 40px;
+}
