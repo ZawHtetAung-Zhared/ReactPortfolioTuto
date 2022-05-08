@@ -23,7 +23,7 @@ const Features = () => {
               <h2>Personal Portfolio April</h2>
               <p>It uses a dictionary of over 200 Latin words, combined with a handful of model sentence.</p>
               <a href=''>
-                <i class='fas fa-arrow-right'></i>
+                <i className='fas fa-arrow-right'></i>
               </a>
             </div>*/}
           </div>

@@ -30,13 +30,13 @@ const Home = () => {
                 <h4>FIND WITH ME</h4>
                 <div className='button'>
                   <button className='btn_shadow'>
-                    <i class='fab fa-facebook-f'></i>
+                    <i className='fab fa-facebook-f'></i>
                   </button>
                   <button className='btn_shadow'>
-                    <i class='fab fa-instagram'></i>
+                    <i className='fab fa-instagram'></i>
                   </button>
                   <button className='btn_shadow'>
-                    <i class='fab fa-linkedin-in'></i>
+                    <i className='fab fa-linkedin-in'></i>
                   </button>
                 </div>
               </div>
