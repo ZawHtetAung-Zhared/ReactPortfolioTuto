@@ -34,7 +34,7 @@ Project is followed through this [tutorial on youtube](https://www.youtube.com/w
 
 # Contact section
 
-![Contact section](src/Screenshots/client.png "Contact section")
+![Contact section](src/Screenshots/contact.png "Contact section")
 
 ## Conclusion
 
