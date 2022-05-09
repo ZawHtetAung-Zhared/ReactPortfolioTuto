@@ -11,15 +11,18 @@ const Testimonial = () => {
     const lastIndex = data.length - 1
     if (index < 0) {
       setIndex(lastIndex)
+      console.log('index < 0');
     }
     if (index > lastIndex) {
       setIndex(0)
+      console.log('index > lastIndex');
     }
   }, [index, data])
 
   useEffect(() => {
     let slider = setInterval(() => {
       setIndex(index + 1)
+      console.log('here here', index);
     }, 3000)
     return () => clearInterval(slider)
   }, [index])
@@ -38,6 +41,7 @@ const Testimonial = () => {
             })}*/}
 
             {data.map((value, valueIndex) => {
+              // console.log('zha testing', valueIndex, index);
               return <Slide key={value.id} {...value} valueIndex={valueIndex} index={index} />
             })}
 
